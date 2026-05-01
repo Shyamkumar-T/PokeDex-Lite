@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Pokemons</title>
+    <link rel="stylesheet" href="allPokemons.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img class="logo-img" src="logo.png">
+        </div>
+        <div class="nav-search">
+            <select class="search-select">
+            <option value="all">All</option>
+            <option value="fire">Fire</option>
+            <option value="water">Water</option>
+            <option value="grass">Grass</option>
+            <option value="bug">Bug</option>
+            <option value="normal">Normal</option>
+        </select>
+            <input placeholder="  Search Pokemons" class="search-inp">
+            <div class="search-icon-bg">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <div class="home">
+                <a class="home-nav" href="index.html">Home</a>
+            </div>
+            <div class="all-pokemons active-link">
+                <a class="all-pokemons-nav" href="allPokemons.html">All Pokemons</a>
+            </div>
+            <div class="favourites">
+                <a class="favourites-nav" href="favourites.html">Favourites</a>
+            </div>
+            <div class="about">
+                <a class="about-nav" href="about.html">About</a>
+            </div>
+        </div>
+    </div>
+    <div id="pokemon-container">
+    </div>
+    <div class="buttons">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+    </div>
+    <script src="allPokemons.js"></script>
+</body>
+</html>

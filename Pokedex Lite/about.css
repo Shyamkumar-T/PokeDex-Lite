@@ -1,0 +1,208 @@
+/* Common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(60, 90, 166);
+}
+/* Nvabar */
+.navbar{
+    height:100px;
+    width:100%;
+    background-color:rgb(60,90,166);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 40px;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+    position:static;
+    bottom:5px;
+}
+.logo-img{
+    height:80px;
+    width:auto;
+    cursor:pointer;
+    position:static;
+    top:auto;
+    right:auto;
+    bottom:auto;
+}
+.logo:hover .logo-img{
+    transform: translateY(-4px) scale(1.08) rotate(-2deg);
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.35));
+}
+.links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    font-size:large;
+    font-family:'Press Start 2P',cursive;
+    flex-wrap:wrap;   gap: 80px;
+}
+.links a{
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+/* underline */
+.links a::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0%;     height: 3px;
+    background-color: rgb(255,203,5);
+    transition: width 0.35s ease;
+}
+/* hover animation */
+.links a:hover::after{
+    width: 100%;
+}
+.active-link a{
+    color: rgb(255,203,5);
+}
+/* HERO SECTION */
+.welcome{
+    width: 100%;
+    background-color: rgb(60, 90, 166);
+    padding: 40px;
+    position: relative;
+}
+.welcome-logo{
+    width: 100%;
+    opacity: 0.15;
+    display: block;
+}
+/* CONTENT */
+.welcome-text, .what, .idea, .disclaimer{
+    width: 100%;
+    padding: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
+/* OVERLAY EFFECT */
+.welcome-text{
+    margin-top: -500px;
+    position: relative;
+    z-index: 2;
+    bottom:150px;
+    left: 40px;
+}
+.welcome-text h2, .what h2, .idea h2, .disclaimer h2{
+    color: rgb(255,203,5);
+    font-size: xx-large;
+    margin-bottom: 35px;
+}
+.welcome-text p, .idea p, .disclaimer p, .what ul{
+    color: white;
+    font-size: large;
+    font-weight: 550;
+    line-height: 2;
+}
+/* WHAT SECTION */
+.what{
+    position:relative;
+    bottom:150px;
+    left:40px;
+}
+.what ul{
+    padding-left: 40px;
+    list-style: "→ ";
+}
+li::marker{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+/* IDEA SECTION */
+.idea{
+    margin-top: 80px;
+    position:relative;
+    bottom:80px;
+    left: 40px;
+}
+/* DISCLAIMER */
+.disclaimer{
+    margin-top: 80px;
+    background-color: rgb(50, 75, 145);
+}
+.disclaimer h2{
+    position: relative;
+    left: 40px;
+}
+.disclaimer p{
+    position: relative;
+    left:40px;
+}
+body{
+    overflow-x:hidden;
+}
+.welcome-text,.what,.idea,.disclaimer{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+@media(max-width:900px){
+    .navbar{
+        flex-direction:column;
+        height:auto;
+        padding:20px;
+        gap:20px;
+    }
+    .links{
+        gap:25px;
+        font-size:0.7rem;
+    }
+    .welcome{
+        padding:20px;
+    }
+    .welcome-text,.what,.idea{
+        position:static;
+        bottom:auto;
+        left:auto;
+        margin-top:0;
+        padding:20px;
+    }
+    .disclaimer{
+        position:static;
+        left:auto;
+        margin-top:20px;
+        padding:20px;
+    }
+    .welcome-text h2,.what h2,.idea h2,.disclaimer h2{
+        font-size:1.1rem;
+        line-height:1.6;
+        margin-bottom:20px;
+    }
+    .welcome-text p,.idea p,.disclaimer p,.what ul{
+        font-size:0.8rem;
+        line-height:1.8;
+    }
+    .welcome-logo{
+        opacity:0.12;
+    }
+}
+@media(max-width:600px){
+    .links{
+        flex-direction:column;
+        gap:15px;
+    }
+    .welcome-text,.what,.idea,.disclaimer{
+        padding:15px;
+    }
+    .welcome-text h2,.what h2,.idea h2,.disclaimer h2{
+        font-size:0.9rem;
+    }
+    .welcome-text p,.idea p,.disclaimer p,.what ul{
+        font-size:0.65rem;
+    }
+}

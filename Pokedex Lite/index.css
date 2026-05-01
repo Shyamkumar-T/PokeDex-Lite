@@ -1,0 +1,244 @@
+/*Common*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(60, 90, 166);
+}
+/* Navbar */
+.navbar{
+    height:100px;
+    width:100%;
+    background-color:rgb(60,90,166);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 40px;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+    position:static;
+    bottom:5px;
+}
+.logo-img{
+    height:80px;
+    width:auto;
+    cursor:pointer;
+    position:static;
+    top:auto;
+    right:auto;
+    bottom:auto;
+}
+.logo:hover .logo-img{
+    transform: translateY(-4px) scale(1.08) rotate(-2deg);
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.35));
+}
+.links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    font-size:large;
+    font-family:'Press Start 2P',cursive;
+    flex-wrap:wrap;   gap: 80px;
+}
+.links a{
+    position: relative;
+    display: inline-block;
+    color: white;
+    padding-bottom: 8px;
+}
+/* underline */
+.links a::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 3px;
+    background-color: rgb(255,203,5);
+    transition: width 0.35s ease;
+}
+/* hover animation */
+.links a:hover::after{
+    width: 100%;
+}
+/* hero card(main team) */
+.hero{
+    height: 500px;
+    background-image: url("Main team.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+/* overlay */
+.begin-journey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 270px;
+    background-color: rgb(255,203,5);
+    color: rgb(60, 90, 166);
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+    font-weight: 1000;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    position: relative;
+    bottom:100px;
+}
+.begin-journey a{
+    color:rgb(60, 90, 166);
+}
+.poke-ball{
+    height:30px;
+    width:35px;
+    padding-left: 5px;
+}
+.facts-container{
+    width: 100%;
+    background-color: rgb(60, 90, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    overflow: hidden;
+}
+/* surprise facts */
+.cv{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+.cover-letter1{
+    width: 320px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    background: transparent;
+    transition: transform 0.3s ease;
+}
+.cover-letter1:hover{
+    cursor: pointer;
+    animation: jiggle 1.2s ease-in-out infinite;
+}
+/* animation(jiggle) */
+@keyframes jiggle{
+       0%{
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    25%{
+        transform: translate(3px, -4px) rotate(2deg);
+    }
+    50%{
+        transform: translate(-3px, 4px) rotate(-2deg);
+    }
+    75%{
+        transform: translate(2px, -2px) rotate(1deg);
+    }
+    100%{
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+.facts{
+    color: rgb(255,203,5);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 650px;
+    transform: translateX(40px);
+    transition: all 0.5s ease;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 600;
+}
+.active-link a{
+    color:rgb(255,203,5);
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+body{
+    overflow-x:hidden;
+}
+/* tablets + small laptops */
+@media(max-width:900px){
+    .navbar{
+        padding:20px;
+        flex-direction:column;
+        height:auto;
+        gap:20px;
+    }
+    .links{
+        gap:25px;
+        font-size:0.7rem;
+    }
+    .hero{
+        height:400px;
+    }
+    .begin-journey{
+        width:220px;
+        height:55px;
+        margin-left:20px;
+        bottom:40px;
+        font-size:0.55rem;
+    }
+    .cv{
+        flex-direction:column;
+        text-align:center;
+        padding:20px;
+    }
+    .facts{
+        transform:none;
+        font-size:0.8rem;
+        max-width:90%;
+    }
+    .cover-letter1{
+        width:250px;
+    }
+}
+/* mobile */
+@media(max-width:600px){
+    .links{
+        flex-direction:column;
+        gap:15px;
+    }
+    .hero{
+        height:300px;
+    }
+    .begin-journey{
+        width:180px;
+        height:50px;
+        margin-left:10px;
+        bottom:20px;
+        font-size:0.45rem;
+    }
+    .poke-ball{
+        width:25px;
+        height:25px;
+    }
+    .facts{
+        font-size:0.6rem;
+        line-height:1.6;
+    }
+    .cover-letter1{
+        width:180px;
+    }
+}
