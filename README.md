@@ -41,5 +41,5 @@ Browse Pokémon, save your favourites, and enjoy a smooth Pokédex experience.
 ---
 
 # 👨‍💻 Author
--Made with ❤️ by Shyamkumar Thanu
--⭐ If you liked this project, consider giving it a star on GitHub!
+- Made with ❤️ by Shyamkumar Thanu
+- ⭐ If you liked this project, consider giving it a star on GitHub!
