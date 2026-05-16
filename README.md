@@ -14,7 +14,6 @@ Browse Pokémon, save your favourites, and enjoy a smooth Pokédex experience.
 📱 Responsive design for multiple screen sizes
 ⚡ Fast and lightweight interface
 ℹ️ About section for project details
-![Uploading image.png…]()
 
 🛠️ Tech Stack
 •HTML5
