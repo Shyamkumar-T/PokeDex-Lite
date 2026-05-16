@@ -1,26 +1,36 @@
-PokeDex Lite ⚡
+# PokeDex Lite ⚡
 
-A clean and lightweight Pokémon web application built for exploring Pokémon in a simple and interactive way.
+A clean and lightweight Pokémon web application built for exploring Pokémon in a simple and interactive way.  
 Browse Pokémon, save your favourites, and enjoy a smooth Pokédex experience.
 
-🚀 Live Demo
+---
 
-🌐 Website: PokeDex Lite
+# 🚀 Live Demo
 
-✨ Features
-🏠 Beautiful landing page
-📖 Browse all Pokémon
-❤️ Add Pokémon to favourites
-📱 Responsive design for multiple screen sizes
-⚡ Fast and lightweight interface
-ℹ️ About section for project details
+🌐 **Website:** https://poke-dex-lite.netlify.app/
 
-🛠️ Tech Stack
-•HTML5
-•CSS3
-•JavaScript
+---
 
-📂 Project Structure
+# ✨ Features
+
+- 🏠 Beautiful landing page  
+- 📖 Browse all Pokémon  
+- ❤️ Add Pokémon to favourites  
+- 📱 Responsive design for multiple screen sizes  
+- ⚡ Fast and lightweight interface  
+- ℹ️ About section for project details  
+
+---
+
+# 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript  
+
+---
+
+# 📂 Project Structure
 PokeDex-Lite/
 │
 ├── public/
@@ -33,10 +43,10 @@ PokeDex-Lite/
 
 ⚙️ Installation & Setup
 # Clone the repository
-git clone https://github.com/your-username/pokedex-lite.git
+git clone https://github.com/shyamkumarthanu/PokeDex-Lite.git
 
 # Navigate into the project folder
-cd pokedex-lite
+cd PokeDex-Lite
 
 # Install dependencies
 npm install
