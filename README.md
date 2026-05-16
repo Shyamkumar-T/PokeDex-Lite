@@ -30,26 +30,14 @@ Browse Pokémon, save your favourites, and enjoy a smooth Pokédex experience.
 
 ---
 
-
-⚙️ Installation & Setup
-# Clone the repository
-git clone https://github.com/shyamkumarthanu/PokeDex-Lite.git
-
-# Navigate into the project folder
-cd PokeDex-Lite
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-
 🎯 Future Improvements
 🎨 Dark mode
 📊 Pokémon stats and abilities
 📄 Individual Pokémon detail pages
 🌐 API optimization and caching
 ✨ Better animations and transitions
+
+---
 
 👨‍💻 Author
 Made with ❤️ by Shyamkumar Thanu
