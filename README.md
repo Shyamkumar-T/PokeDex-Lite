@@ -30,15 +30,15 @@ Browse Pokémon, save your favourites, and enjoy a smooth Pokédex experience.
 
 ---
 
-🎯 Future Improvements
-🎨 Dark mode
-📊 Pokémon stats and abilities
-📄 Individual Pokémon detail pages
-🌐 API optimization and caching
-✨ Better animations and transitions
+# 🎯 Future Improvements
+-🎨 Dark mode
+-📊 Pokémon stats and abilities
+-📄 Individual Pokémon detail pages
+-🌐 API optimization and caching
+-✨ Better animations and transitions
 
 ---
 
-👨‍💻 Author
-Made with ❤️ by Shyamkumar Thanu
-⭐ If you liked this project, consider giving it a star on GitHub!
+# 👨‍💻 Author
+-Made with ❤️ by Shyamkumar Thanu
+-⭐ If you liked this project, consider giving it a star on GitHub!
