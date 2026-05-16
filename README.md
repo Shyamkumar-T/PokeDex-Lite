@@ -31,11 +31,12 @@ Browse Pokémon, save your favourites, and enjoy a smooth Pokédex experience.
 ---
 
 # 🎯 Future Improvements
--🎨 Dark mode
--📊 Pokémon stats and abilities
--📄 Individual Pokémon detail pages
--🌐 API optimization and caching
--✨ Better animations and transitions
+
+- 🎨 Dark mode
+- 📊 Pokémon stats and abilities
+- 📄 Individual Pokémon detail pages
+- 🌐 API optimization and caching
+- ✨ Better animations and transitions
 
 ---
 
