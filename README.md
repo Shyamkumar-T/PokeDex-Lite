@@ -30,24 +30,6 @@ Browse Pokémon, save your favourites, and enjoy a smooth Pokédex experience.
 
 ---
 
-# 📂 Project Structure
-PokeDex-Lite/
-
-│
-
-├── public/
-
-├── src/
-
-├── assets/
-
-├── components/
-
-├── styles/
-
-├── package.json
-
-└── README.md
 
 ⚙️ Installation & Setup
 # Clone the repository
